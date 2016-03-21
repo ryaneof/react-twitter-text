@@ -26,6 +26,13 @@ export default React.createClass({
 
   handleTweetTextLinkClick(event) {
     event.preventDefault();
+
+    let eventTarget = event.target;
+
+    if (event.target.nodeName === 'SPAN') {
+      eventTarget = event.target.parentNode;
+    }
+
     this.props.redirectCallback(event.target.href);
   },
 
