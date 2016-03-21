@@ -1,6 +1,6 @@
 {
   "name": "react-twitter-text",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple wrapper component of twitter-text.",
   "main": "dist/index.js",
   "author": "Ryan Chu <ryaneof@gmail.com>",
