@@ -29,11 +29,13 @@ export default React.createClass({
 
     let eventTarget = event.target;
 
-    if (event.target.nodeName === 'SPAN') {
+    if (event.target.nodeName === "SPAN") {
       eventTarget = event.target.parentNode;
     }
 
-    this.props.redirectCallback(event.target.href);
+    if (eventTarget.nodeName === "A") {
+      this.props.redirectCallback(eventTarget.href);
+    }
   },
 
   render() {
