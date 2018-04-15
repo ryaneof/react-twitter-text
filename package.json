@@ -16,7 +16,7 @@
     "test": "babel-node test/index.js"
   },
   "peerDependencies": {
-    "react": "^0.14.7"
+    "react": "^16.3.0"
   },
   "devDependencies": {
     "babel": "^6.5.2",
