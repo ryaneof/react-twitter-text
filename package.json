@@ -2,7 +2,7 @@
   "name": "react-twitter-text",
   "version": "0.0.4",
   "description": "A simple wrapper component of twitter-text.",
-  "main": "dist/index.js",
+  "main": "lib/index.jsx",
   "author": "Ryan Chu <ryaneof@gmail.com>",
   "license": "MIT",
   "repository": {
