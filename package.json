@@ -35,9 +35,9 @@
     "gulp-rename": "^1.2.2",
     "mocha": "^2.4.5",
     "prop-types": "^15.6.1",
-    "react": "^0.14.7",
-    "react-addons-test-utils": "^0.14.7",
-    "react-dom": "^0.14.7",
+    "react": "^16.3.0",
+    "react-addons-test-utils": "^16.3.0",
+    "react-dom": "^16.3.0",
     "tape": "^4.5.0"
   },
   "dependencies": {
