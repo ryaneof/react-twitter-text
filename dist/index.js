@@ -12,13 +12,15 @@ var _react2 = _interopRequireDefault(_react);
 
 var _PropTypes = require('prop-types');
 
+var _CreateReactClass = require('create-react-class');
+
 var _twitterText = require('twitter-text');
 
 var _twitterText2 = _interopRequireDefault(_twitterText);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = _react2.default.createClass({
+exports.default = _CreateReactClass({
 
   displayName: 'ReactTwitterText',
 
