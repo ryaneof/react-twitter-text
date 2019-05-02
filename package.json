@@ -15,9 +15,7 @@
     "prepublish": "npm run build",
     "test": "babel-node test/index.js"
   },
-  "peerDependencies": {
-    "react": "^0.14.7"
-  },
+  "peerDependencies": {},
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-cli": "^6.6.5",
@@ -33,12 +31,14 @@
     "gulp-eslint": "^1.1.1",
     "gulp-rename": "^1.2.2",
     "mocha": "^2.4.5",
-    "react": "^0.14.7",
-    "react-addons-test-utils": "^0.14.7",
-    "react-dom": "^0.14.7",
+    "react-addons-test-utils": "^16.3.0",
+    "react-dom": "^16.3.0",
     "tape": "^4.5.0"
   },
   "dependencies": {
-    "twitter-text": "^1.13.4"
+    "twitter-text": "^1.13.4",
+    "react": "^16.7.0",
+    "create-react-class": "^15.6.3",
+    "prop-types": "^15.6.2"
   }
 }
